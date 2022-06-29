@@ -31,7 +31,7 @@ export const EmigratePanel = () => {
         htmlFor="message"
         className="text-left block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Copy your migration code:
+        Copiez votre code de migration:
       </label>
       <textarea
         id="emigration-code"

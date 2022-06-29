@@ -50,7 +50,7 @@ export const ImmigratePanel = () => {
     if (
       textarea &&
       window.confirm(
-        'Are you sure you want to override the statistics on this device? This action is not reversable.'
+        'Etes vous sur de vouloir écraser les statistiques sur cet appareil ? Cette opération est irreversible.'
       )
     ) {
       var migrationStats = JSON.parse(
@@ -78,7 +78,7 @@ export const ImmigratePanel = () => {
         htmlFor="message"
         className="text-left block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Paste your migration code:
+        Collez votre code de migration:
       </label>
       <textarea
         onChange={(e) => handleImmigrationCodeChange(e)}
