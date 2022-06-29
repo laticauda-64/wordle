@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       handleClose={handleClose}
     >
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Deviner le mot en 6 essais. Après chaque tentative, la couleur des
+        Devinez le mot en 6 essais. Après chaque tentative, la couleur des
         tuiles changera pour vous donner des indices.
       </p>
 
@@ -22,40 +22,40 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="F"
           status="correct"
         />
-        <Cell value="E" />
         <Cell value="A" />
+        <Cell value="I" />
         <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La lettre W est dans le mot et au bon endroit.
+        La lettre F est dans le mot et au bon endroit.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="G" />
+        <Cell value="R" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="A"
           status="present"
         />
-        <Cell value="O" />
-        <Cell value="T" />
+        <Cell value="N" />
+        <Cell value="D" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        La lettre L est dans le mot mais à la mauvaise place.
+        La lettre A est dans le mot mais à la mauvaise place.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
         <Cell value="A" />
-        <Cell value="G" />
         <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="C" />
+        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         La lettre U n'est pas dans le mot.
