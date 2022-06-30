@@ -62,7 +62,7 @@ function App() {
       ? localStorage.getItem('theme') === 'dark'
       : prefersDarkMode
       ? true
-      : false
+      : true // Dark mode by default
   )
   const [isHighContrastMode, setIsHighContrastMode] = useState(
     getStoredIsHighContrastMode()
