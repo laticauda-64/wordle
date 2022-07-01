@@ -26,4 +26,4 @@ This React project is my interpretation of the popular word game translated in F
 
 
 This project is forked from this awesome project [**Original Repo**](https://github.com/cwackerfuss/react-wordle).<br>
-I taked the words list from [**them**](https://github.com/LouanBen/wordle-fr).
+I took the words list from [**them**](https://github.com/LouanBen/wordle-fr).
